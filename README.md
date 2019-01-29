@@ -42,3 +42,16 @@ Note: It has a dependency of Redis that is included in docker-compose manifest.
   "temperature": 0.67,
 }
 ```
+
+Develop Commands
+========
+
+`yarn start`: run in development mode.
+
+
+Docker Commands
+========
+
+`docker build -t acid-backend .`: build docker.
+
+`docker run -it -p 3000:3000 acid-backend`: run docker.
